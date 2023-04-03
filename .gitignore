@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/CropInsuranceUI/.vs
+/CropInsuranceUI/farmer-portal-ui/.vscode
+/FarmerPortalDb/.vs/FarmerPortalDb/v16
+/FarmerPortalDb/FarmerInsurancePortal/bin/Debug
+/FarmerPortalDb/FarmerInsurancePortal/obj/Debug
+/Insurance.FarmerPortal/.vs/Insurance.FarmerPortal
+/Insurance.FarmerPortal/Insurance.FarmerPortal/bin/Debug/netcoreapp3.1
+/Insurance.FarmerPortal/Insurance.FarmerPortal/obj
+/Insurance.FarmerPortal/Insurance.FarmerPortal.Bpl/obj
+/Insurance.FarmerPortal/Insurance.FarmerPortal.Dal/obj

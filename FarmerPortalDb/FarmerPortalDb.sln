@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33423.256
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "FarmerInsurancePortal", "FarmerInsurancePortal\FarmerInsurancePortal.sqlproj", "{72E6DADF-9A2B-49EF-A979-9F94602C50E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72E6DADF-9A2B-49EF-A979-9F94602C50E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E6DADF-9A2B-49EF-A979-9F94602C50E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E6DADF-9A2B-49EF-A979-9F94602C50E7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{72E6DADF-9A2B-49EF-A979-9F94602C50E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E6DADF-9A2B-49EF-A979-9F94602C50E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72E6DADF-9A2B-49EF-A979-9F94602C50E7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {779F4D3D-01D5-497E-B700-CBA9BBD357B7}
+	EndGlobalSection
+EndGlobal
