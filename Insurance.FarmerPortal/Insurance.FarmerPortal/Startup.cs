@@ -10,6 +10,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
+using Insurance.FarmerPortal.Profiles;
+using Insurance.FarmerPortal.Bpl.Interfaces.User;
+using Insurance.FarmerPortal.Bpl.ConcreteBusiness.User;
+using Insurance.FarmerPortal.Dal.Interfaces.User;
+using Insurance.FarmerPortal.Dal.ConcreteRepository.User;
 
 namespace Insurance.FarmerPortal
 {
@@ -26,6 +32,9 @@ namespace Insurance.FarmerPortal
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddAutoMapper();
+            services.AddScoped<IUserRegister, UserRegister>();
+            services.AddScoped<IUserRegisterRepository, UserRegisterRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

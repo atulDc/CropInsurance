@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Insurance.FarmerPortal.Bpl.Models
+namespace Insurance.FarmerPortal.Bpl.Utility
 {
-    public class User
+    public class SecurityValidation
     {
 
     }
