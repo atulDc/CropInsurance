@@ -4,11 +4,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Model = Insurance.FarmerPortal.Models;
-using Entity = Insurance.FarmerPortal.Bpl.Entities;
+using Model = Insurance.FarmerPortal.Bpl.Models;
+using Entity = Insurance.FarmerPortal.Dal.Entities;
 using Insurance.FarmerPortal.Bpl.Interfaces.User;
 using AutoMapper;
-using System.Web.Http;
+
 
 namespace Insurance.FarmerPortal.Controllers
 {

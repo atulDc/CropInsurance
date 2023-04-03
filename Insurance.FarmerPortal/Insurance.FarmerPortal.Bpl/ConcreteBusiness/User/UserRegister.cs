@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Insurance.FarmerPortal.Bpl.Interfaces.User;
-using Insurance.FarmerPortal.Bpl.Entities;
+﻿using Insurance.FarmerPortal.Bpl.Interfaces.User;
+using Insurance.FarmerPortal.Dal.Interfaces.User;
+using Insurance.FarmerPortal.Dal.Entities;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 
@@ -11,13 +9,15 @@ namespace Insurance.FarmerPortal.Bpl.ConcreteBusiness.User
     public class UserRegister : IUserRegister
     {
         private readonly ILogger<UserRegister> logger;
-        public UserRegister(ILogger<UserRegister> _logger)
+        private readonly IUserRegisterRepository userRegisterRepo;
+        public UserRegister(ILogger<UserRegister> _logger, IUserRegisterRepository userRegisterRepo)
         {
             this.logger = _logger;
+            this.userRegisterRepo = userRegisterRepo;
         }
-        public async Task<Status> UserRegisterAsync(Entities.User user)
+        public async Task<Status> UserRegisterAsync(Dal.Entities.User user)
         {
-            
+           return await this.userRegisterRepo.UserRegisterAsync(user);
         }
     }
 }

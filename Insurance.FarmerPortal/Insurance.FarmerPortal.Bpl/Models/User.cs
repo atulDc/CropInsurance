@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Insurance.FarmerPortal.Bpl.Entities
+namespace Insurance.FarmerPortal.Bpl.Models
 {
     public class User
     {

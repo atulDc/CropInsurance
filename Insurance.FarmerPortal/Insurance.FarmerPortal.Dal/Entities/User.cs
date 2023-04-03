@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Insurance.FarmerPortal.Models
+namespace Insurance.FarmerPortal.Dal.Entities
 {
     public class User
     {
